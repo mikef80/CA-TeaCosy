@@ -1,0 +1,65 @@
+h1, h2, body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    font-weight: 300;
+    color: black;
+    /*background-color: lightgrey;*/
+    background-image: linear-gradient(to right,white, lightgrey);
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+/*table, th, td {
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}*/
+
+.tbl_example, .tbl_example tr, .tbl_example th, .tbl_example td {    
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 0.25em;
+}
+
+.tbl_example tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+.tbl_example th {
+    background-color: grey;
+    color: white;
+}
+
+#nav tbody td {
+    padding-right: 4em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.tbl_example tr:hover {
+    /*text-decoration: underline;*/
+    /*font-weight: 400;*/
+    background-color: rgba(255, 255, 0, 0.5) !important;
+}
