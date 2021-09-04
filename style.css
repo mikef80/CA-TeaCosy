@@ -7,6 +7,23 @@ html {
     text-align: center;
 }
 
+.container {
+    display: flex;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    justify-content: space-between;
+}
+
 #logo {
     height: 50px;
+}
+
+main {
+    padding-top: 69px;
 }
