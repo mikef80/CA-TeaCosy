@@ -17,3 +17,8 @@ header {
     border-bottom: 1px solid seashell;
     width: 100%;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
