@@ -1,29 +1,19 @@
-html {
+* {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
-}
-
-.container {
-    display: flex;
-}
-
-.fixed {
-    position: fixed;
-    width: 100%;
+    border: 1px solid red;
 }
 
 header {
+    display: flex;
     justify-content: space-between;
-}
-
-#logo {
-    height: 50px;
-}
-
-main {
-    padding-top: 69px;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
 }
