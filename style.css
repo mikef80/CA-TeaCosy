@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: normal;
 }
 
 html {
@@ -54,13 +55,13 @@ html {
     height: 50px;
 }
 
-#menu>a {
+a {
     padding: 10px;
     color: seashell;
 }
 
 #hero {
-    background: url(Media/img-mission-background.webp);
+    background-image: url(Media/img-mission-background.webp);
     height: 700px;
     width: 1200px;
     justify-content: center;
@@ -101,7 +102,8 @@ figure + figure {
 #locations {
     height: 500px;
     width: 1200px;
-    background: url(Media/img-locations-background.webp);
+    background-image: url(Media/img-locations-background.webp);
+    background-position:center;
     /* padding-top: 50px; */
     justify-content: center;
     align-items: center;
@@ -114,4 +116,15 @@ figure + figure {
     height: 300px;
     width: 300px;
     justify-content: space-around;
+}
+
+#contact {
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+#footer {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 20px;
 }
