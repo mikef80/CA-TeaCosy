@@ -101,7 +101,7 @@ figure + figure {
 #locations {
     height: 500px;
     width: 1200px;
-    background-image: url(/Media/img-locations-background.webp);
+    background-image: url(Media/img-locations-background.webp);
     /* padding-top: 50px; */
     justify-content: center;
     align-items: center;
