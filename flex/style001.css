@@ -49,9 +49,13 @@
 }
 
 .container-2-box {
-    flex-basis: 27%;  
+    flex-basis: 20%;  
 }
 
 .container-3-box {
-    flex-basis:12%;
+    flex-basis:100%;
+}
+
+.grow {
+    flex-grow: 1;
 }
