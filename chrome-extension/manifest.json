@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Pardot Region Highlighter",
+    "version": "0.1.0",
+    "description": "Highlight different type of Pardot region when building templates using liveview",
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "http://127.0.0.1:5500/*"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "index2.html",
+        "default_title": "Pardot Region Highlighter"
+    }
+}
